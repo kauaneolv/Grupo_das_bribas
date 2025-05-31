@@ -1,0 +1,56 @@
+#Html
+<button class="btn-sair">&times;</button>
+
+<div class="identificacao">Sistema de Controle | Distribuidora de Roupas</div>
+
+<div class="titulo">LOGIN</div>
+<div class="linha"></div>
+<div class="subtitulo">Acesse sua conta</div>
+
+#Css
+.btn-sair {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background-color: transparent;
+    color: #004d40;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.btn-sair:hover {
+    color: #00695c;
+}
+
+.identificacao {
+    color: #00796b;
+    font-size: 14px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.titulo {
+    color: #1e1e1e;
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.linha {
+    width: 120px;
+    height: 2px;
+    background-color: #1e1e1e;
+    margin: 0 auto 16px auto;
+    border-radius: 50px;
+}
+
+.subtitulo {
+    color: #00796b;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 28px;
+}
